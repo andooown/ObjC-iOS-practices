@@ -14,6 +14,7 @@
 		AA5DD9E9203F8953007B2134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5DD9E7203F8953007B2134 /* LaunchScreen.storyboard */; };
 		AA5DD9EC203F8953007B2134 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5DD9EB203F8953007B2134 /* main.m */; };
 		AA5DDA0F203F8C95007B2134 /* MixiSampleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5DDA0E203F8C95007B2134 /* MixiSampleClass.m */; };
+		AAE68F962041CC9300832D13 /* NSString+NSString_HogeAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE68F952041CC9300832D13 /* NSString+NSString_HogeAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		AA5DD9FC203F8953007B2134 /* BasicObjectiveCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicObjectiveCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5DDA0E203F8C95007B2134 /* MixiSampleClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixiSampleClass.m; sourceTree = "<group>"; };
 		AA5DDA10203F8CAC007B2134 /* MixiSampleClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixiSampleClass.h; sourceTree = "<group>"; };
+		AAE68F942041CC9300832D13 /* NSString+NSString_HogeAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+NSString_HogeAddition.h"; sourceTree = "<group>"; };
+		AAE68F952041CC9300832D13 /* NSString+NSString_HogeAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSString_HogeAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				AA5DD9EB203F8953007B2134 /* main.m */,
 				AA5DDA0E203F8C95007B2134 /* MixiSampleClass.m */,
 				AA5DDA10203F8CAC007B2134 /* MixiSampleClass.h */,
+				AAE68F942041CC9300832D13 /* NSString+NSString_HogeAddition.h */,
+				AAE68F952041CC9300832D13 /* NSString+NSString_HogeAddition.m */,
 			);
 			path = BasicObjectiveC;
 			sourceTree = "<group>";
@@ -245,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA5DD9E1203F8953007B2134 /* ViewController.m in Sources */,
+				AAE68F962041CC9300832D13 /* NSString+NSString_HogeAddition.m in Sources */,
 				AA5DD9EC203F8953007B2134 /* main.m in Sources */,
 				AA5DD9DE203F8953007B2134 /* AppDelegate.m in Sources */,
 				AA5DDA0F203F8C95007B2134 /* MixiSampleClass.m in Sources */,
