@@ -21,7 +21,7 @@ typedef NS_ENUM(NSInteger, SampleType) {
 @property (nonatomic, strong) NSString *name;
 
 // インスタンスメソッドの宣言
-- (id)initWithName:(NSString *)name sampleType:(SampleType)sampleType;
+- (id)　initWithName:(NSString *)name sampleType:(SampleType)sampleType;
 // クラスメソッドの宣言
 + (NSString *) getStaticString;
 
