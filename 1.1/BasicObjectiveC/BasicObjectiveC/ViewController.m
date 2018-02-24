@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MixiSampleClass.h"
+#import "NSString+NSString_HogeAddition.h"
 
 @interface ViewController ()
 
@@ -19,10 +20,10 @@
     [super viewDidLoad];
     
     // MixiSampleClass のテスト
-    MixiSampleClass *obj = [MixiSampleClass alloc];
-    obj = [obj initWithName: @"Test" sampleType:SampleTypeHoge];
-    NSLog(@"%@", obj.name);
-    NSLog(@"%@", [MixiSampleClass getStaticString]);
+    MixiSampleClass *obj = [[MixiSampleClass alloc] initWithName: @"Test" sampleType:SampleTypeHoge];
+    NSLog(@"obj.name: %@", obj.name);
+    NSLog(@"obj.name addHoge(): %@", [obj.name addHoge]);
+    NSLog(@"getStaticString(): %@", [MixiSampleClass getStaticString]);
 }
 
 
