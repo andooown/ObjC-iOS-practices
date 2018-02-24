@@ -23,9 +23,7 @@ static NSString *staticString = @"static";
 
 @implementation MixiSampleClass
 
--(id)initWithName:(NSString *)name
-       sampleType:(SampleType)sampleType
-{
+- (id)initWithName:(NSString *)name sampleType:(SampleType)sampleType {
     // 親クラスの初期化
     self = [super init];
     // 自身の初期化
@@ -38,8 +36,7 @@ static NSString *staticString = @"static";
     return self;
 }
 
-+ (NSString *)getStaticString
-{
++ (NSString *)getStaticString {
     return staticString;
 }
 
