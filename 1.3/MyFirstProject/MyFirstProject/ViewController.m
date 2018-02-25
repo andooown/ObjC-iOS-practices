@@ -23,7 +23,6 @@
     [self.view addSubview:_sampleVC.view];
 }
 
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

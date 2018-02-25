@@ -32,11 +32,6 @@
                     </subviews>
                     <color key="backgroundColor" red="0.67121032667934555" green="0.68136738989637302" blue="0.62882464816864403" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" id="WMk-VK-GTf" userLabel="View - blue">
-                    <rect key="frame" x="67" y="519" width="240" height="128"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                    <color key="backgroundColor" red="0.24244813399003284" green="0.24066389872887395" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <point key="canvasLocation" x="25.5" y="52.5"/>

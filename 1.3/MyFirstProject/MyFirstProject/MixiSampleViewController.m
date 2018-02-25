@@ -19,6 +19,8 @@
     
     // grayView の背景色を変更
     [_grayView setBackgroundColor:[UIColor redColor]];
+    // grayView のサイズを変更
+    [_grayView setFrame:CGRectMake(_grayView.frame.origin.x, _grayView.frame.origin.y, _grayView.frame.size.width / 2, _grayView.frame.size.height / 2)];
 }
 
 - (void)didReceiveMemoryWarning {
