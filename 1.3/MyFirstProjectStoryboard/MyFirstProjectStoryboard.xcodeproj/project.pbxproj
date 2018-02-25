@@ -13,6 +13,7 @@
 		AA5684B32043009200706C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5684B22043009200706C42 /* Assets.xcassets */; };
 		AA5684B62043009200706C42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5684B42043009200706C42 /* LaunchScreen.storyboard */; };
 		AA5684B92043009200706C42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5684B82043009200706C42 /* main.m */; };
+		AA5684C12043025400706C42 /* MixiSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5684C02043025400706C42 /* MixiSampleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AA5684B52043009200706C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA5684B72043009200706C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA5684B82043009200706C42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA5684BF2043025400706C42 /* MixiSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixiSampleViewController.h; sourceTree = "<group>"; };
+		AA5684C02043025400706C42 /* MixiSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixiSampleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		AA5684A82043009100706C42 /* MyFirstProjectStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				AA5684BF2043025400706C42 /* MixiSampleViewController.h */,
+				AA5684C02043025400706C42 /* MixiSampleViewController.m */,
 				AA5684A92043009100706C42 /* AppDelegate.h */,
 				AA5684AA2043009100706C42 /* AppDelegate.m */,
 				AA5684AC2043009100706C42 /* ViewController.h */,
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA5684AE2043009200706C42 /* ViewController.m in Sources */,
+				AA5684C12043025400706C42 /* MixiSampleViewController.m in Sources */,
 				AA5684B92043009200706C42 /* main.m in Sources */,
 				AA5684AB2043009100706C42 /* AppDelegate.m in Sources */,
 			);
