@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    // grayView の背景色を変更
+    [_grayView setBackgroundColor:[UIColor redColor]];
 }
 
 - (void)didReceiveMemoryWarning {
