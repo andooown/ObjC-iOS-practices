@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MixiSampleViewController.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    // MixiSampleViewController
+    MixiSampleViewController *_sampleVC = [[MixiSampleViewController alloc] initWithNibName:@"MixiSampleViewController" bundle:nil];
+    [self.view addSubview:_sampleVC.view];
 }
 
 
