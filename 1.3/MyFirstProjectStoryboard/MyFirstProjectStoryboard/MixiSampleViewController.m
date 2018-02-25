@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    // Label のテキストを書き換え
+    self.label.text = @"Test";
 }
 
 - (void)didReceiveMemoryWarning {
