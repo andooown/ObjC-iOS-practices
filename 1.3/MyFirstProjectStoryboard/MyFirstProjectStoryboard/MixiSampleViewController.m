@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Label のテキストを書き換え
+    // Label のテキストを書き換える
     self.label.text = @"Test";
 }
 
@@ -35,5 +35,10 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)buttonTapped:(id)sender {
+    // Label のテキストを書き換える
+    self.label.text = @"YES";
+}
 
 @end

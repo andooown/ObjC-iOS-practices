@@ -43,6 +43,9 @@
                                 <rect key="frame" x="16" y="56" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="wd3-uU-ng6" eventType="touchUpInside" id="ZQA-i9-R6p"/>
+                                </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZZg-AX-wI5">
                                 <rect key="frame" x="16" y="94" width="206" height="30"/>
