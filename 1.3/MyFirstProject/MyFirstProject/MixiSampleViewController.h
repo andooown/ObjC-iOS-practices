@@ -10,4 +10,6 @@
 
 @interface MixiSampleViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *grayView;
+
 @end
