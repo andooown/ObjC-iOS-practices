@@ -61,17 +61,17 @@
 		AA5684A82043009100706C42 /* MyFirstProjectStoryboard */ = {
 			isa = PBXGroup;
 			children = (
-				AA5684BF2043025400706C42 /* MixiSampleViewController.h */,
-				AA5684C02043025400706C42 /* MixiSampleViewController.m */,
 				AA5684A92043009100706C42 /* AppDelegate.h */,
 				AA5684AA2043009100706C42 /* AppDelegate.m */,
+				AA5684B22043009200706C42 /* Assets.xcassets */,
+				AA5684B72043009200706C42 /* Info.plist */,
+				AA5684B42043009200706C42 /* LaunchScreen.storyboard */,
+				AA5684B82043009200706C42 /* main.m */,
+				AA5684AF2043009200706C42 /* Main.storyboard */,
+				AA5684BF2043025400706C42 /* MixiSampleViewController.h */,
+				AA5684C02043025400706C42 /* MixiSampleViewController.m */,
 				AA5684AC2043009100706C42 /* ViewController.h */,
 				AA5684AD2043009200706C42 /* ViewController.m */,
-				AA5684AF2043009200706C42 /* Main.storyboard */,
-				AA5684B22043009200706C42 /* Assets.xcassets */,
-				AA5684B42043009200706C42 /* LaunchScreen.storyboard */,
-				AA5684B72043009200706C42 /* Info.plist */,
-				AA5684B82043009200706C42 /* main.m */,
 			);
 			path = MyFirstProjectStoryboard;
 			sourceTree = "<group>";
