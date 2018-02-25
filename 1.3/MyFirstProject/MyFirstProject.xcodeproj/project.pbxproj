@@ -13,6 +13,8 @@
 		AA56848B2042EEF300706C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA56848A2042EEF300706C42 /* Assets.xcassets */; };
 		AA56848E2042EEF300706C42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA56848C2042EEF300706C42 /* LaunchScreen.storyboard */; };
 		AA5684912042EEF300706C42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5684902042EEF300706C42 /* main.m */; };
+		AA56849B2042F0CE00706C42 /* MixiSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5684992042F0CE00706C42 /* MixiSampleViewController.m */; };
+		AA56849C2042F0CE00706C42 /* MixiSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA56849A2042F0CE00706C42 /* MixiSampleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		AA56848D2042EEF300706C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA56848F2042EEF300706C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA5684902042EEF300706C42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA5684982042F0CE00706C42 /* MixiSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixiSampleViewController.h; sourceTree = "<group>"; };
+		AA5684992042F0CE00706C42 /* MixiSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixiSampleViewController.m; sourceTree = "<group>"; };
+		AA56849A2042F0CE00706C42 /* MixiSampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MixiSampleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 		AA5684802042EEF300706C42 /* MyFirstProject */ = {
 			isa = PBXGroup;
 			children = (
+				AA5684982042F0CE00706C42 /* MixiSampleViewController.h */,
+				AA5684992042F0CE00706C42 /* MixiSampleViewController.m */,
+				AA56849A2042F0CE00706C42 /* MixiSampleViewController.xib */,
 				AA5684812042EEF300706C42 /* AppDelegate.h */,
 				AA5684822042EEF300706C42 /* AppDelegate.m */,
 				AA5684842042EEF300706C42 /* ViewController.h */,
@@ -130,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA56848E2042EEF300706C42 /* LaunchScreen.storyboard in Resources */,
+				AA56849C2042F0CE00706C42 /* MixiSampleViewController.xib in Resources */,
 				AA56848B2042EEF300706C42 /* Assets.xcassets in Resources */,
 				AA5684892042EEF300706C42 /* Main.storyboard in Resources */,
 			);
@@ -143,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA5684862042EEF300706C42 /* ViewController.m in Sources */,
+				AA56849B2042F0CE00706C42 /* MixiSampleViewController.m in Sources */,
 				AA5684912042EEF300706C42 /* main.m in Sources */,
 				AA5684832042EEF300706C42 /* AppDelegate.m in Sources */,
 			);
