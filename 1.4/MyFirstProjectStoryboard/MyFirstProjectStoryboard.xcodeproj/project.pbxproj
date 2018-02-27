@@ -14,6 +14,7 @@
 		AA5684B62043009200706C42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5684B42043009200706C42 /* LaunchScreen.storyboard */; };
 		AA5684B92043009200706C42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5684B82043009200706C42 /* main.m */; };
 		AA5684C12043025400706C42 /* MixiSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5684C02043025400706C42 /* MixiSampleViewController.m */; };
+		AAE68FC02045B08A00832D13 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE68FBF2045B08A00832D13 /* ModalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		AA5684B82043009200706C42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA5684BF2043025400706C42 /* MixiSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixiSampleViewController.h; sourceTree = "<group>"; };
 		AA5684C02043025400706C42 /* MixiSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixiSampleViewController.m; sourceTree = "<group>"; };
+		AAE68FBE2045B08A00832D13 /* ModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		AAE68FBF2045B08A00832D13 /* ModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				AA5684C02043025400706C42 /* MixiSampleViewController.m */,
 				AA5684AC2043009100706C42 /* ViewController.h */,
 				AA5684AD2043009200706C42 /* ViewController.m */,
+				AAE68FBE2045B08A00832D13 /* ModalViewController.h */,
+				AAE68FBF2045B08A00832D13 /* ModalViewController.m */,
 			);
 			path = MyFirstProjectStoryboard;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			files = (
 				AA5684AE2043009200706C42 /* ViewController.m in Sources */,
 				AA5684C12043025400706C42 /* MixiSampleViewController.m in Sources */,
+				AAE68FC02045B08A00832D13 /* ModalViewController.m in Sources */,
 				AA5684B92043009200706C42 /* main.m in Sources */,
 				AA5684AB2043009100706C42 /* AppDelegate.m in Sources */,
 			);
