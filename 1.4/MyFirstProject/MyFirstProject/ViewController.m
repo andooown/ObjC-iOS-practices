@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "ModalViewController.h"
 
 @interface ViewController ()
 
@@ -27,9 +26,18 @@
 }
 
 - (IBAction)pressShowModalButton:(id)sender {
-    // ModalViewController を表示
+    // ModalViewController を作成
     ModalViewController *modal = [[ModalViewController alloc] init];
+    // delegate 先に自身を設定
+    modal.delegate = self;
+    // ModalViewController を表示
     [self presentViewController:modal animated:YES completion:nil];
+}
+
+#pragma mark - ModalViewControllerDelegate methods
+- (void)didPressDismissModalButton {
+    // ModalViewControllerを閉じる
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
