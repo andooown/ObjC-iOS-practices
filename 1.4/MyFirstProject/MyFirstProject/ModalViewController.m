@@ -35,8 +35,10 @@
 */
 
 - (IBAction)pressDismissModelButton:(id)sender {
-    // 自信を閉じる
-    [self dismissViewControllerAnimated:YES completion:nil];
+    // デリゲートが実装されていれば実行する
+    if ([_delegate respondsToSelector:@selector(didPressDismissModalButton)]) {
+        [_delegate didPressDismissModalButton];
+    }
 }
 
 @end
