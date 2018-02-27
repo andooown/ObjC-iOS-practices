@@ -16,7 +16,35 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    // 課題 1
+    NSArray *obj = @[
+        @{
+            @"domain" : @"mixi.jp",
+            @"entry" : @[
+                @"list_voice.pl",
+                @"list_diary.pl",
+                @"list_mymall_item.pl"
+            ]
+        },
+        @{
+            @"domain" : @"mmall.jp",
+            @"entry" : @[
+                @{
+                    @"path" : @"add_diary.pl",
+                    @"query" : @[
+                        @{
+                            @"tag_id" : @7
+                        }
+                    ]
+                }
+            ]
+        },
+        @{
+            @"domain" : @"itunes.apple.com"
+        }
+    ];
+    NSLog(@"%@", obj);
 }
 
 
