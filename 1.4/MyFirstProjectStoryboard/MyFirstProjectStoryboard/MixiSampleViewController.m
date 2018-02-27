@@ -46,4 +46,9 @@
     [self performSegueWithIdentifier:@"presentModalViewController" sender:self];
 }
 
+// Unwind Segue 実行時に呼び出されるメソッド
+- (IBAction)unwindToMixiSampleViewController:(UIStoryboardSegue *)segue {
+    
+}
+
 @end
