@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ModalViewController.h"
 
 @interface ViewController ()
 
@@ -25,5 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)pressShowModalButton:(id)sender {
+    // ModalViewController を表示
+    ModalViewController *modal = [[ModalViewController alloc] init];
+    [self presentViewController:modal animated:YES completion:nil];
+}
 
 @end
+
