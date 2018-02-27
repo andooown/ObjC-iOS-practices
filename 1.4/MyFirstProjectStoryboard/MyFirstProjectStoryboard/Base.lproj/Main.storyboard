@@ -45,6 +45,7 @@
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="wd3-uU-ng6" eventType="touchUpInside" id="ZQA-i9-R6p"/>
+                                    <segue destination="mUX-Lb-yIi" kind="presentation" id="r9D-CN-wu9"/>
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZZg-AX-wI5">
