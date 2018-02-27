@@ -34,4 +34,9 @@
 }
 */
 
+- (IBAction)pressDismissModelButton:(id)sender {
+    // 自信を閉じる
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 @end
