@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "TestQueue.h"
+#import "TestStack.h"
 
 @interface ViewController ()
 
@@ -45,6 +47,22 @@
         }
     ];
     NSLog(@"%@", obj);
+    
+    // 課題 2
+    TestQueue *queue = [[TestQueue alloc] init];
+    TestStack *stack = [[TestStack alloc] init];
+    for (int i = 0; i < 3; i++) {
+        [queue push:[NSNumber numberWithInt:i]];
+        [stack push:[NSNumber numberWithInt:i]];
+    }
+    NSLog(@"TestQueue");
+    while (queue.size > 0) {
+        NSLog(@"%@", [queue pop]);
+    }
+    NSLog(@"TestStack");
+    while (stack.size > 0) {
+        NSLog(@"%@", [stack pop]);
+    }
 }
 
 
