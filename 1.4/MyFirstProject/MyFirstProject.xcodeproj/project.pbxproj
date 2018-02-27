@@ -13,6 +13,8 @@
 		AAE68FAD20443B8100832D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE68FAC20443B8100832D13 /* Assets.xcassets */; };
 		AAE68FB020443B8100832D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE68FAE20443B8100832D13 /* LaunchScreen.storyboard */; };
 		AAE68FB320443B8100832D13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE68FB220443B8100832D13 /* main.m */; };
+		AAE68FBC2045A8D600832D13 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE68FBA2045A8D600832D13 /* ModalViewController.m */; };
+		AAE68FBD2045A8D600832D13 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE68FBB2045A8D600832D13 /* ModalViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		AAE68FAF20443B8100832D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAE68FB120443B8100832D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAE68FB220443B8100832D13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAE68FB92045A8D500832D13 /* ModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		AAE68FBA2045A8D600832D13 /* ModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		AAE68FBB2045A8D600832D13 /* ModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,9 @@
 				AAE68FA620443B8100832D13 /* ViewController.h */,
 				AAE68FA720443B8100832D13 /* ViewController.m */,
 				AAE68FA920443B8100832D13 /* Main.storyboard */,
+				AAE68FB92045A8D500832D13 /* ModalViewController.h */,
+				AAE68FBA2045A8D600832D13 /* ModalViewController.m */,
+				AAE68FBB2045A8D600832D13 /* ModalViewController.xib */,
 				AAE68FAC20443B8100832D13 /* Assets.xcassets */,
 				AAE68FAE20443B8100832D13 /* LaunchScreen.storyboard */,
 				AAE68FB120443B8100832D13 /* Info.plist */,
@@ -129,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAE68FBD2045A8D600832D13 /* ModalViewController.xib in Resources */,
 				AAE68FB020443B8100832D13 /* LaunchScreen.storyboard in Resources */,
 				AAE68FAD20443B8100832D13 /* Assets.xcassets in Resources */,
 				AAE68FAB20443B8100832D13 /* Main.storyboard in Resources */,
@@ -142,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAE68FBC2045A8D600832D13 /* ModalViewController.m in Sources */,
 				AAE68FA820443B8100832D13 /* ViewController.m in Sources */,
 				AAE68FB320443B8100832D13 /* main.m in Sources */,
 				AAE68FA520443B8100832D13 /* AppDelegate.m in Sources */,
