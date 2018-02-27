@@ -41,4 +41,9 @@
     self.label.text = @"YES";
 }
 
+- (IBAction)secondButtonTapped:(id)sender {
+    // ModalViewController を表示する segue を呼び出す
+    [self performSegueWithIdentifier:@"presentModalViewController" sender:self];
+}
+
 @end

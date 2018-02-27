@@ -45,7 +45,7 @@
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="wd3-uU-ng6" eventType="touchUpInside" id="ZQA-i9-R6p"/>
-                                    <segue destination="mUX-Lb-yIi" kind="presentation" id="r9D-CN-wu9"/>
+                                    <segue destination="mUX-Lb-yIi" kind="presentation" identifier="presentModalViewController" id="r9D-CN-wu9"/>
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZZg-AX-wI5">
@@ -64,6 +64,14 @@
                                 <rect key="frame" x="126" y="131" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8w-sZ-xWr">
+                                <rect key="frame" x="18" y="170" width="109" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Second Button"/>
+                                <connections>
+                                    <action selector="secondButtonTapped:" destination="wd3-uU-ng6" eventType="touchUpInside" id="kUu-ZJ-UKU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="YcC-ox-xTj"/>
@@ -74,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UtE-ZB-1lu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="670" y="697"/>
+            <point key="canvasLocation" x="669.60000000000002" y="696.7016491754124"/>
         </scene>
         <!--Modal View Controller-->
         <scene sceneID="8eP-hJ-kQf">
