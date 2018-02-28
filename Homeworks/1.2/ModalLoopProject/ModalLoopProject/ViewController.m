@@ -25,5 +25,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - ModalViewControllerDelegate methods
+- (void)didCloseModalButtonPressed {
+    
+}
 
 @end
