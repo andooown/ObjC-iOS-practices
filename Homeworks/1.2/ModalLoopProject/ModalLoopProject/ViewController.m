@@ -10,9 +10,21 @@
 
 @interface ViewController ()
 
+@property (nonatomic, assign) BOOL isModalShowed;   // モーダル画面が表示されたか
+
 @end
 
 @implementation ViewController
+
+- (id)init {
+    self = [super init];
+    if (self) {
+        self.isModalShowed = NO;
+    }
+    
+    return self;
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
