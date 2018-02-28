@@ -48,17 +48,17 @@
 #pragma mark - ModalViewControllerDelegate methods
 - (void)didCloseModalButtonPressed {
     // モーダル画面を閉じる
-    [self dismissViewControllerAnimated:YES completion:nil];
-    
-    if (self.isModalShowed) {
-        // 2 回目以降の表示のあとはもう一度モーダル画面を開く
-        ModalViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ModalViewController"];
-        viewController.delegate = self;
-        [self presentViewController:viewController animated:YES completion:nil];
-    }
-    
-    // 状態を更新
-    self.isModalShowed = YES;
+    [self dismissViewControllerAnimated:YES completion:^{
+        if (self.isModalShowed) {
+            // 2 回目以降の表示のあとはもう一度モーダル画面を開く
+            ModalViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ModalViewController"];
+            viewController.delegate = self;
+            [self presentViewController:viewController animated:YES completion:nil];
+        }
+        
+        // 状態を更新
+        self.isModalShowed = YES;
+    }];
 }
 
 @end
