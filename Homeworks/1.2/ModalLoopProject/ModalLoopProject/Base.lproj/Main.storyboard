@@ -23,7 +23,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Present Modal"/>
                                 <connections>
-                                    <action selector="pressPresentModalButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Dq-vy-O8p"/>
+                                    <segue destination="Zxh-6Y-kUJ" kind="presentation" id="Ftb-Sm-gSw"/>
                                 </connections>
                             </button>
                         </subviews>
