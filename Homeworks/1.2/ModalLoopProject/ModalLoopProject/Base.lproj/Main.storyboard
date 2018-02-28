@@ -38,7 +38,7 @@
         <!--Modal View Controller-->
         <scene sceneID="LLF-Th-0TY">
             <objects>
-                <viewController id="Zxh-6Y-kUJ" customClass="ModalViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ModalViewController" id="Zxh-6Y-kUJ" customClass="ModalViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ygW-dO-pf1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
