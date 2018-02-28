@@ -37,9 +37,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // デリゲートに自身を設定
+    if ([segue.identifier isEqualToString:@"presentModalViewController"]) {
+        ((ModalViewController *)segue.destinationViewController).delegate = self;
+    }
+}
+
 #pragma mark - ModalViewControllerDelegate methods
 - (void)didCloseModalButtonPressed {
-    
+    // モーダル画面を閉じる
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
