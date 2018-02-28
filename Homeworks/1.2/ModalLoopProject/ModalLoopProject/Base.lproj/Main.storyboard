@@ -35,5 +35,30 @@
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
         </scene>
+        <!--Modal View Controller-->
+        <scene sceneID="LLF-Th-0TY">
+            <objects>
+                <viewController id="Zxh-6Y-kUJ" customClass="ModalViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ygW-dO-pf1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sqr-cm-XO2">
+                                <rect key="frame" x="139" y="318" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Close Modal"/>
+                                <connections>
+                                    <action selector="pressCloseModalButton:" destination="Zxh-6Y-kUJ" eventType="touchUpInside" id="LWD-aQ-3b3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.36155249662283973" blue="0.66502109222293204" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="4HK-F1-VXg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JfD-Le-eKg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="816.79999999999995" y="118.29085457271366"/>
+        </scene>
     </scenes>
 </document>

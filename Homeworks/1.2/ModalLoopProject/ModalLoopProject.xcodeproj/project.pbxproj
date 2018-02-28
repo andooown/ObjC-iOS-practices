@@ -13,6 +13,7 @@
 		AA7DDD9320470B5000749D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7DDD9220470B5000749D1A /* Assets.xcassets */; };
 		AA7DDD9620470B5000749D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7DDD9420470B5000749D1A /* LaunchScreen.storyboard */; };
 		AA7DDD9920470B5000749D1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7DDD9820470B5000749D1A /* main.m */; };
+		AA7DDDA120470CA500749D1A /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7DDDA020470CA500749D1A /* ModalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AA7DDD9520470B5000749D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA7DDD9720470B5000749D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA7DDD9820470B5000749D1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA7DDD9F20470CA500749D1A /* ModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		AA7DDDA020470CA500749D1A /* ModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				AA7DDD8C20470B5000749D1A /* ViewController.h */,
 				AA7DDD8D20470B5000749D1A /* ViewController.m */,
 				AA7DDD8F20470B5000749D1A /* Main.storyboard */,
+				AA7DDD9F20470CA500749D1A /* ModalViewController.h */,
+				AA7DDDA020470CA500749D1A /* ModalViewController.m */,
 				AA7DDD9220470B5000749D1A /* Assets.xcassets */,
 				AA7DDD9420470B5000749D1A /* LaunchScreen.storyboard */,
 				AA7DDD9720470B5000749D1A /* Info.plist */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7DDDA120470CA500749D1A /* ModalViewController.m in Sources */,
 				AA7DDD8E20470B5000749D1A /* ViewController.m in Sources */,
 				AA7DDD9920470B5000749D1A /* main.m in Sources */,
 				AA7DDD8B20470B5000749D1A /* AppDelegate.m in Sources */,
