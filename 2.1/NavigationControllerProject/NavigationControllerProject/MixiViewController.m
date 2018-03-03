@@ -19,6 +19,9 @@
     
     // タイトルに現在の階層の深さを表示
     self.title = [NSString localizedStringWithFormat:@"%lu", self.navigationController.viewControllers.count];
+    // NavigationBar に pop 用のボタンを設置
+    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Pop" style:UIBarButtonItemStylePlain target:self action:@selector(pressPopButton)];
+    self.navigationItem.rightBarButtonItem = rightButton;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -40,6 +43,11 @@
     // 新しい MixiViewController に push する
     MixiViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MixiViewController"];
     [self.navigationController pushViewController:viewController animated:YES];
+}
+
+- (void)pressPopButton {
+    // pop する
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 @end
