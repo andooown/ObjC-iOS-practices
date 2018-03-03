@@ -19,6 +19,15 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    // MixiViewController を root に持つ NavigationController を表示
+    UIViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MixiViewController"];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    [self presentViewController:navigationController animated:YES completion:nil];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
