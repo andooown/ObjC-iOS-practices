@@ -34,4 +34,10 @@
 }
 */
 
+- (IBAction)pushButtonTapped:(id)sender {
+    // 新しい MixiViewController に push する
+    MixiViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MixiViewController"];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
 @end
