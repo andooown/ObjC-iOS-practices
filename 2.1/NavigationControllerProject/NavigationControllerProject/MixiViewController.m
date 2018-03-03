@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    // タイトルに現在の階層の深さを表示
+    self.title = [NSString localizedStringWithFormat:@"%lu", self.navigationController.viewControllers.count];
 }
 
 - (void)didReceiveMemoryWarning {
