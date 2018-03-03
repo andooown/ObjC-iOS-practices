@@ -13,6 +13,7 @@
 		AAA46FAA204AD63200EAFCF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA46FA9204AD63200EAFCF5 /* Assets.xcassets */; };
 		AAA46FAD204AD63200EAFCF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA46FAB204AD63200EAFCF5 /* LaunchScreen.storyboard */; };
 		AAA46FB0204AD63200EAFCF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA46FAF204AD63200EAFCF5 /* main.m */; };
+		AAA46FB8204AD66100EAFCF5 /* MixiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA46FB7204AD66100EAFCF5 /* MixiViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AAA46FAC204AD63200EAFCF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAA46FAE204AD63200EAFCF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAA46FAF204AD63200EAFCF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAA46FB6204AD66100EAFCF5 /* MixiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixiViewController.h; sourceTree = "<group>"; };
+		AAA46FB7204AD66100EAFCF5 /* MixiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixiViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +63,15 @@
 			children = (
 				AAA46FA0204AD63200EAFCF5 /* AppDelegate.h */,
 				AAA46FA1204AD63200EAFCF5 /* AppDelegate.m */,
+				AAA46FA9204AD63200EAFCF5 /* Assets.xcassets */,
+				AAA46FAE204AD63200EAFCF5 /* Info.plist */,
+				AAA46FAB204AD63200EAFCF5 /* LaunchScreen.storyboard */,
+				AAA46FAF204AD63200EAFCF5 /* main.m */,
+				AAA46FA6204AD63200EAFCF5 /* Main.storyboard */,
+				AAA46FB6204AD66100EAFCF5 /* MixiViewController.h */,
+				AAA46FB7204AD66100EAFCF5 /* MixiViewController.m */,
 				AAA46FA3204AD63200EAFCF5 /* ViewController.h */,
 				AAA46FA4204AD63200EAFCF5 /* ViewController.m */,
-				AAA46FA6204AD63200EAFCF5 /* Main.storyboard */,
-				AAA46FA9204AD63200EAFCF5 /* Assets.xcassets */,
-				AAA46FAB204AD63200EAFCF5 /* LaunchScreen.storyboard */,
-				AAA46FAE204AD63200EAFCF5 /* Info.plist */,
-				AAA46FAF204AD63200EAFCF5 /* main.m */,
 			);
 			path = NavigationControllerProject;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAA46FA5204AD63200EAFCF5 /* ViewController.m in Sources */,
+				AAA46FB8204AD66100EAFCF5 /* MixiViewController.m in Sources */,
 				AAA46FB0204AD63200EAFCF5 /* main.m in Sources */,
 				AAA46FA2204AD63200EAFCF5 /* AppDelegate.m in Sources */,
 			);
