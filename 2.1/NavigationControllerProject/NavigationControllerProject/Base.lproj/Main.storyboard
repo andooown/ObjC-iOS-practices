@@ -27,7 +27,7 @@
         <!--Mixi View Controller-->
         <scene sceneID="3Ce-8J-QIl">
             <objects>
-                <viewController id="zgE-QE-hDw" customClass="MixiViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MixiViewController" id="zgE-QE-hDw" customClass="MixiViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vxc-Ah-deo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
