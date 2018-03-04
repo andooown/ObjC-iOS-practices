@@ -61,10 +61,10 @@
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
         </scene>
-        <!--View Controller-->
+        <!--Landscape View Controller-->
         <scene sceneID="otA-1z-rCa">
             <objects>
-                <viewController id="07k-8t-4Dd" sceneMemberID="viewController">
+                <viewController id="07k-8t-4Dd" customClass="LandscapeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rjT-dt-NRy">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

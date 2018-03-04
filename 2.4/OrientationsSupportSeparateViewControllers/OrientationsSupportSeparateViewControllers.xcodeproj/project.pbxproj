@@ -13,6 +13,7 @@
 		AAAB258E204C168900C7FD4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAB258D204C168900C7FD4B /* Assets.xcassets */; };
 		AAAB2591204C168900C7FD4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAAB258F204C168900C7FD4B /* LaunchScreen.storyboard */; };
 		AAAB2594204C168900C7FD4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAB2593204C168900C7FD4B /* main.m */; };
+		AAAB259C204C1A6600C7FD4B /* LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAB259B204C1A6600C7FD4B /* LandscapeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AAAB2590204C168900C7FD4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAAB2592204C168900C7FD4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAAB2593204C168900C7FD4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAAB259A204C1A6600C7FD4B /* LandscapeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandscapeViewController.h; sourceTree = "<group>"; };
+		AAAB259B204C1A6600C7FD4B /* LandscapeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandscapeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +63,15 @@
 			children = (
 				AAAB2584204C168900C7FD4B /* AppDelegate.h */,
 				AAAB2585204C168900C7FD4B /* AppDelegate.m */,
+				AAAB258D204C168900C7FD4B /* Assets.xcassets */,
+				AAAB2592204C168900C7FD4B /* Info.plist */,
+				AAAB259A204C1A6600C7FD4B /* LandscapeViewController.h */,
+				AAAB259B204C1A6600C7FD4B /* LandscapeViewController.m */,
+				AAAB258F204C168900C7FD4B /* LaunchScreen.storyboard */,
+				AAAB2593204C168900C7FD4B /* main.m */,
+				AAAB258A204C168900C7FD4B /* Main.storyboard */,
 				AAAB2587204C168900C7FD4B /* ViewController.h */,
 				AAAB2588204C168900C7FD4B /* ViewController.m */,
-				AAAB258A204C168900C7FD4B /* Main.storyboard */,
-				AAAB258D204C168900C7FD4B /* Assets.xcassets */,
-				AAAB258F204C168900C7FD4B /* LaunchScreen.storyboard */,
-				AAAB2592204C168900C7FD4B /* Info.plist */,
-				AAAB2593204C168900C7FD4B /* main.m */,
 			);
 			path = OrientationsSupportSeparateViewControllers;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			files = (
 				AAAB2589204C168900C7FD4B /* ViewController.m in Sources */,
 				AAAB2594204C168900C7FD4B /* main.m in Sources */,
+				AAAB259C204C1A6600C7FD4B /* LandscapeViewController.m in Sources */,
 				AAAB2586204C168900C7FD4B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
