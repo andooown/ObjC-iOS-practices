@@ -64,7 +64,7 @@
         <!--Landscape View Controller-->
         <scene sceneID="otA-1z-rCa">
             <objects>
-                <viewController id="07k-8t-4Dd" customClass="LandscapeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LandscapeViewController" id="07k-8t-4Dd" customClass="LandscapeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rjT-dt-NRy">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
