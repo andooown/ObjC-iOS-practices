@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "LandscapeViewController.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) LandscapeViewController *landscapeViewController;
 
 @end
 
@@ -16,7 +19,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    // UIDevice からの回転通知の受取りを登録
+    [UIDevice.currentDevice beginGeneratingDeviceOrientationNotifications];
+    [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(<#selector#>) name:UIDeviceOrientationDidChangeNotification object:nil];
+    // LandscapeViewCOntroller を作成
+    self.landscapeViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"LandscapeViewController"];
 }
 
 
